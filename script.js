@@ -26,7 +26,7 @@ let tellMe = (joke) =>{
 // Get Jokes from Joke API
 async function getJokes(){
     //const apiURL = 'https://sv443.net/jokeapi/v2/joke/Programming?blacklistFlags=nsfw,religious,political,racist,explicit';
-    const apiURL = 'https://joke-teller-api.onrender.com:5005'; // local server deployed on render platform
+    const apiURL = 'https://joke-teller-api.onrender.com:4000/random'; // local server deployed on render platform
     let joke = '';
     try {
         const response= await fetch(apiURL);
